@@ -1,0 +1,12 @@
+.tech-stack {
+    margin: 2rem 0;
+}
+
+.tech-stack h2 {
+    margin-bottom: 1.5rem;
+}
+
+.tech-stack p {
+    margin-top: 0.5rem;
+    text-align: center;
+}
