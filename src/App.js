@@ -1,24 +1,26 @@
-import React, {Component} from "react";
-import './App.css';
-import Header from './components/Header';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout';
 import Info from './components/Info';
 import TechStack from './components/TechStack';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+import CP from './components/CP';
 
 function App() {
-  return (
-      <div className="App">
-        <Header />
-        <Info />
-        <TechStack />
-        {/*<Projects />*/}
-        <Contact />
-        <Footer />
-      </div>
-  );
+    return (
+        <Router>
+            <Layout>
+                <Routes>
+                    <Route path="/" element={<Info />} />
+                    <Route path="/tech-stack" element={<TechStack />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/cp" element={<CP />} />
+                </Routes>
+            </Layout>
+        </Router>
+    );
 }
 
 export default App;
-

@@ -1,11 +1,11 @@
 import React from 'react';
 import './css/Footer.css';
+import react_logo from './img/react_logo.svg';
 
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>Line 1 of your text</p>
-            <p>Line 2 of your text</p>
+            <p>Personal webpage powered by React <img src={react_logo} style={{ width: 30, height: 30 }} alt={""}></img></p>
         </footer>
     );
 };
