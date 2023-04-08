@@ -18,7 +18,7 @@ Current Solution: type the following command before running `npm start`:
 Before running the project, running `npm install to install all required packages`
 
 In the project directory, you can run:
-
+ 
 ### `npm start`
 
 Runs the app in the development mode.\

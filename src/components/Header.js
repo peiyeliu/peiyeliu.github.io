@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <Navbar id="my-nav-bar" bg="dark" variant="dark" expand="lg" sticky="top">
             <LinkContainer to="/">
-                <Navbar.Brand>Your Name</Navbar.Brand>
+                <Navbar.Brand>Peiye Liu</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -20,9 +20,9 @@ const Header = () => {
                     <LinkContainer to="/projects">
                         <Nav.Link>Projects</Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/contact">
-                        <Nav.Link>Contact</Nav.Link>
-                    </LinkContainer>
+                    {/*<LinkContainer to="/contact">*/}
+                    {/*    <Nav.Link>Contact</Nav.Link>*/}
+                    {/*</LinkContainer>*/}
                     <LinkContainer to="/cp">
                         <Nav.Link>CP</Nav.Link>
                     </LinkContainer>

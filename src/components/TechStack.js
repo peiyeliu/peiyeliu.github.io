@@ -25,6 +25,10 @@ import {FaJava} from "react-icons/all";
 const TechStack = () => {
     return (
         <Container className="tech-stack">
+            <div>
+                <p>As an enthusiastic learner, I am always opening to new technologies.</p>
+                <p>Tech stacks that I have been familiar with are listed here. Those techniques are learnt from coursework, previous work experiences, self-driven project, etc.</p>
+            </div>
             <h2>Programming Language</h2>
             <Row>
                 <Col xs={12} sm={6} md={4} lg={2}>
@@ -81,7 +85,7 @@ const TechStack = () => {
             <Row>
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <SiDocker size={48} />
-                    <p>Dcoker</p>
+                    <p>Docker</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <SiKubernetes size={48} />
@@ -93,7 +97,7 @@ const TechStack = () => {
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <SiAnsible size={48} />
-                    <p>Ansiable</p>
+                    <p>Ansible</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <SiTerraform size={48} />
