@@ -1,8 +1,11 @@
 // TODO: selected projects page
 import React from 'react';
 import {Card, Col, Container, Row} from "react-bootstrap";
-import projectImage1 from './img/react_logo.svg';
-import projectImage2 from './img/react_logo.svg';
+import reactImage from './img/react_logo.svg';
+import springImage from './img/spring.jpeg';
+import stockFlaskImage from './img/stock-flask.png';
+import movieDBFlaskImage from './img/moviedb-flask.png';
+import movieDBAngularImage from './img/moviedb-angular.png';
 import './css/Projects.css';
 
 const Projects = () => {
@@ -10,26 +13,32 @@ const Projects = () => {
         {
             title: 'moviedb-angular',
             description: 'This project used Angular as the front-end framework to display responsive web pages. Backend part was built using Node.js, Express, and Axios.',
-            image: projectImage1,
+            image: movieDBAngularImage,
             url: 'https://github.com/peiyeliu/moviedb-angular',
         },
         {
             title: 'moviedb-python-flask',
             description: 'A web technology project using Python Flask as the backend framework. User interface display and request handling were achieved in plain HTML, CSS, and JavaScript.',
-            image: projectImage2,
+            image: movieDBFlaskImage,
             url: 'https://github.com/peiyeliu/moviedb-python-flask',
         },
         {
             title: 'personal web page',
             description: 'Personal web page powered by React and BootStrap',
-            image: projectImage2,
+            image: reactImage,
             url: 'https://github.com/peiyeliu/peiyeliu.github.io',
         },
         {
             title: 'springboot project',
             description: 'online shopping web services develop under Java and Spring framework',
-            image: projectImage2,
+            image: springImage,
             url: 'https://github.com/peiyeliu/e-commerce-spike-springboot',
+        },
+        {
+            title: 'stock web page',
+            description: 'a web project that deliver stock info',
+            image: stockFlaskImage,
+            url: 'https://github.com/peiyeliu/stock-web-page-flask',
         }
     ];
     return (
