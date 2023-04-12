@@ -1,0 +1,23 @@
+{
+  "main.css": "/static/css/main.64e003c1.chunk.css",
+  "main.js": "/static/js/main.7e06b64f.chunk.js",
+  "main.js.map": "/static/js/main.7e06b64f.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.e7acac33.js",
+  "runtime~main.js.map": "/static/js/runtime~main.e7acac33.js.map",
+  "static/css/2.70dd6427.chunk.css": "/static/css/2.70dd6427.chunk.css",
+  "static/js/2.d608a053.chunk.js": "/static/js/2.d608a053.chunk.js",
+  "static/js/2.d608a053.chunk.js.map": "/static/js/2.d608a053.chunk.js.map",
+  "static/js/3.c27f424e.chunk.js": "/static/js/3.c27f424e.chunk.js",
+  "static/js/3.c27f424e.chunk.js.map": "/static/js/3.c27f424e.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.a43bbd3c1dc8f287eff84d556f3eb036.js": "/precache-manifest.a43bbd3c1dc8f287eff84d556f3eb036.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/2.70dd6427.chunk.css.map": "/static/css/2.70dd6427.chunk.css.map",
+  "static/css/main.64e003c1.chunk.css.map": "/static/css/main.64e003c1.chunk.css.map",
+  "static/media/moviedb-angular.png": "/static/media/moviedb-angular.38697436.png",
+  "static/media/moviedb-flask.png": "/static/media/moviedb-flask.02dc478e.png",
+  "static/media/react_logo.svg": "/static/media/react_logo.06e73328.svg",
+  "static/media/spring.jpeg": "/static/media/spring.bc6df857.jpeg",
+  "static/media/stock-flask.png": "/static/media/stock-flask.a51397dd.png",
+  "static/media/wordcloud.jpg": "/static/media/wordcloud.fe3fc597.jpg"
+}
