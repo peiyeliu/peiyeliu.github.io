@@ -43,7 +43,7 @@ const Projects = () => {
     return (
         <div>
             <h2>Selected Projects</h2>
-            <p>My selected project will be presented here.</p>
+            <p>My selected project will be presented here.</p>git
             <Container className="projects">
                 <Row>
                     {projects.map((project, index) => (
