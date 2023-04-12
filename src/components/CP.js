@@ -4,12 +4,11 @@ const CP = () => {
     return (
         <div>
             <h2>CP = Competitive Programming</h2>
-            <p>I do some competitive programming in my spare time, just for fun :)</p>
+            <p>I do some competitive programming contests (Leetcode, Codeforces, etc.) in my spare time, just for fun :)</p>
 
-            <p><a href="https://clist.by/coder/lpychemistry/">Summary of my CP profile</a></p>
+            <p><a href="https://clist.by/coder/lpychemistry/">Summary of my CP profiles</a></p>
 
-
-            <p>My Leetcode Stats (Refresh the page again if the image is broken)</p>
+            <p>My Leetcode Stats:</p>
             <p align="left">
                 <a href="https://leetcode.com/lpychemistry/">
                     <img src="https://cp-logo.vercel.app/leetcode/lpychemistry" alt="Leetcode rating" />

@@ -1,4 +1,3 @@
-// TODO: selected projects page
 import React from 'react';
 import {Card, Col, Container, Row} from "react-bootstrap";
 import reactImage from './img/react_logo.svg';
