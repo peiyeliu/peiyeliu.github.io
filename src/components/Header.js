@@ -20,9 +20,6 @@ const Header = () => {
                     <LinkContainer to="/projects">
                         <Nav.Link>Projects</Nav.Link>
                     </LinkContainer>
-                    {/*<LinkContainer to="/contact">*/}
-                    {/*    <Nav.Link>Contact</Nav.Link>*/}
-                    {/*</LinkContainer>*/}
                     <LinkContainer to="/cp">
                         <Nav.Link>CP</Nav.Link>
                     </LinkContainer>
