@@ -44,6 +44,7 @@ const Projects = () => {
         <div>
             <h2>Selected Projects</h2>
             <p>My selected project will be presented here.</p>
+            <p>See my <a href="https://github.com/peiyeliu/">Github page</a> for all my project repositories.</p>
             <Container className="projects">
                 <Row>
                     {projects.map((project, index) => (
