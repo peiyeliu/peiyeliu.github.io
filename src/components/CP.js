@@ -16,7 +16,8 @@ const CP = () => {
             </p>
 
             <p float="left">
-                <img height="273em" src="https://leetcard.jacoblin.cool/lpychemistry?theme=light&font=Sulphur%20Point&ext=contest" />
+                <img height="273em" src="https://leetcard.jacoblin.cool/lpychemistry?theme=light&font=Sulphur%20Point&ext=contest"
+                     alt="Leetcode stats"/>
             </p>
 
         </div>
