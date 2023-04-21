@@ -20,7 +20,7 @@ import {
     SiJenkins, SiAnsible, SiTerraform
 } from 'react-icons/si';
 import './css/TechStack.css';
-import {FaJava} from "react-icons/all";
+import {FaJava} from "react-icons/fa";
 
 const TechStack = () => {
     return (
