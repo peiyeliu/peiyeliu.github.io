@@ -1,23 +1,23 @@
 {
-  "main.css": "/static/css/main.64e003c1.chunk.css",
-  "main.js": "/static/js/main.7e06b64f.chunk.js",
-  "main.js.map": "/static/js/main.7e06b64f.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.e7acac33.js",
-  "runtime~main.js.map": "/static/js/runtime~main.e7acac33.js.map",
-  "static/css/2.70dd6427.chunk.css": "/static/css/2.70dd6427.chunk.css",
-  "static/js/2.d608a053.chunk.js": "/static/js/2.d608a053.chunk.js",
-  "static/js/2.d608a053.chunk.js.map": "/static/js/2.d608a053.chunk.js.map",
-  "static/js/3.c27f424e.chunk.js": "/static/js/3.c27f424e.chunk.js",
-  "static/js/3.c27f424e.chunk.js.map": "/static/js/3.c27f424e.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.a43bbd3c1dc8f287eff84d556f3eb036.js": "/precache-manifest.a43bbd3c1dc8f287eff84d556f3eb036.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.70dd6427.chunk.css.map": "/static/css/2.70dd6427.chunk.css.map",
-  "static/css/main.64e003c1.chunk.css.map": "/static/css/main.64e003c1.chunk.css.map",
-  "static/media/moviedb-angular.png": "/static/media/moviedb-angular.38697436.png",
-  "static/media/moviedb-flask.png": "/static/media/moviedb-flask.02dc478e.png",
-  "static/media/react_logo.svg": "/static/media/react_logo.06e73328.svg",
-  "static/media/spring.jpeg": "/static/media/spring.bc6df857.jpeg",
-  "static/media/stock-flask.png": "/static/media/stock-flask.a51397dd.png",
-  "static/media/wordcloud.jpg": "/static/media/wordcloud.fe3fc597.jpg"
+  "files": {
+    "main.css": "/static/css/main.e741c1a5.css",
+    "main.js": "/static/js/main.3293682c.js",
+    "static/js/787.d8e0ad76.chunk.js": "/static/js/787.d8e0ad76.chunk.js",
+    "static/media/moviedb-flask.png": "/static/media/moviedb-flask.18475030db372de5859a.png",
+    "static/media/moviedb-angular.png": "/static/media/moviedb-angular.17f55353e0f44f919dbd.png",
+    "static/media/FSU.png": "/static/media/FSU.28db7e9b0211cd520a33.png",
+    "static/media/stock-flask.png": "/static/media/stock-flask.39cc6c12ee3ebd386fe3.png",
+    "static/media/NKU.jpeg": "/static/media/NKU.ba24278ab1612a2fe2f0.jpeg",
+    "static/media/amazon.png": "/static/media/amazon.88d0e2a3dbd75476e72d.png",
+    "static/media/spring.jpeg": "/static/media/spring.68c6da545c2d7f42b884.jpeg",
+    "static/media/react_logo.svg": "/static/media/react_logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.e741c1a5.css.map": "/static/css/main.e741c1a5.css.map",
+    "main.3293682c.js.map": "/static/js/main.3293682c.js.map",
+    "787.d8e0ad76.chunk.js.map": "/static/js/787.d8e0ad76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e741c1a5.css",
+    "static/js/main.3293682c.js"
+  ]
 }
