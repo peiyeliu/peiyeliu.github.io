@@ -5,6 +5,7 @@ import Info from './components/Info';
 import TechStack from './components/TechStack';
 import Projects from './components/Projects';
 import CP from './components/CP';
+import ProjectDetails from "./components/ProjectDetails";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route path="/tech-stack" element={<TechStack />} />
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/cp" element={<CP />} />
+                    <Route path="/project-details/:projectId" element={<ProjectDetails />} />
                 </Routes>
             </Layout>
         </Router>

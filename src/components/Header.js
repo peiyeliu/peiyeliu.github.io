@@ -4,8 +4,9 @@ import { LinkContainer } from 'react-router-bootstrap';
 import './css/Header.css';
 const Header = () => {
     return (
+
         <Navbar id="my-nav-bar" bg="dark" variant="dark" expand="lg" sticky="top">
-            <LinkContainer to="/">
+            <LinkContainer to="/" style={{ marginLeft: '15px' }}>
                 <Navbar.Brand>Peiye Liu</Navbar.Brand>
             </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
