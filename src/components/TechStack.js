@@ -53,15 +53,15 @@ const TechStack = () => {
             <Row>
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <SiMysql size={48} />
-                    <p>Amazon AWS</p>
+                    <p>MySQL</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <SiRedis size={48} />
-                    <p>Google Cloud</p>
+                    <p>Redis</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <SiMongodb size={48} />
-                    <p>Azure</p>
+                    <p>Mongodb</p>
                 </Col>
             </Row>
 
