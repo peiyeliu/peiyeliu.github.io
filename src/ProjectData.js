@@ -3,10 +3,20 @@ import flaskMoviedbImg from './components/img/moviedb-flask.png'
 import reactPersonalpageImg from './components/img/react_logo.svg'
 import springOnlineShopptingImg from './components/img/spring.jpeg'
 import flaskStockInfoImg from './components/img/stock-flask.png'
+import iosMoviedbImg from './components/img/ios-moviedb.png'
 
 import angularMoviedbGif1 from './components/gif/angular-moviedb/moviedb-angular-1.gif'
 import angularMoviedbGif2 from './components/gif/angular-moviedb/moviedb-angular-2.gif'
 import angularMoviedbGif3 from './components/gif/angular-moviedb/moviedb-angular-3.gif'
+
+import iosMoviedbpic1 from './components/gif/ios-moviedb/moviedbios-1.png'
+import iosMoviedbpic2 from './components/gif/ios-moviedb/moviedbios-2.png'
+import iosMoviedbpic3 from './components/gif/ios-moviedb/moviedbios-3.png'
+import iosMoviedbpic4 from './components/gif/ios-moviedb/moviedbios-4.png'
+import iosMoviedbpic5 from './components/gif/ios-moviedb/moviedbios-5.png'
+import iosMoviedbpic6 from './components/gif/ios-moviedb/moviedbios-6.png'
+
+
 
 const projectData = {
     'angular-moviedb': {
@@ -61,12 +71,45 @@ const projectData = {
     },
     'flask-stock-info': {
         projectName: 'flask-stock-info',
-        projectLink: 'a web project that deliver stock info',
+        projectLink: 'https://github.com/peiyeliu/stock-web-page-flask',
         projectImg: flaskStockInfoImg,
         projectDescription: 'a web project that deliver stock info',
         detailPage: false,
         // systemDesignImage: flaskStockInfoImg,
         // systemDesignDescription: 'Description of the overall system design.'
+    },
+    'ios-moviedb': {
+        projectName: 'ios-moviedb',
+        projectLink: 'https://github.com/peiyeliu/moviedbappIOS',
+        projectImg: iosMoviedbImg,
+        projectDescription: 'This is an IOS app that displays movie and TV programs ratings, description, casts, and reviews data. Searching and watchlist feature supported.',
+        detailPage: true,
+        features: [
+            {
+                image: iosMoviedbpic1,
+                description: 'home page layout',
+            },
+            {
+                image: iosMoviedbpic2,
+                description: 'movie/tv detail view, with youtube video component',
+            },
+            {
+                image: iosMoviedbpic3,
+                description: 'Casts, reviews with scroll bar layout',
+            },
+            {
+                image: iosMoviedbpic4,
+                description: 'Recommended movies',
+            },
+            {
+                image: iosMoviedbpic5,
+                description: 'Search bar',
+            },
+            {
+                image: iosMoviedbpic6,
+                description: 'Watchlist',
+            },
+        ]
     }
 };
 

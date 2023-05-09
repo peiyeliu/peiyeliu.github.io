@@ -12,14 +12,9 @@ const ProjectDetails = () => {
     }
     return (
         <Container className="project-details">
-            <h2>{project.projectName}</h2>
-            <p>
-                <a href={project.projectLink} target="_blank" rel="noopener noreferrer">
-                    {project.projectLink}
-                </a>
-            </p>
-            <p>{project.projectDescription}</p>
+            <h2 href={project.projectLink}><a href={project.projectLink} target="_blank" rel="noopener noreferrer">{project.projectName}</a></h2>
 
+            <p>{project.projectDescription}</p>
 
             { project.systemDesignImage ?
                 <div>
@@ -29,7 +24,6 @@ const ProjectDetails = () => {
                 </div>
                 : null
             }
-
 
 
             <h3>Features</h3>

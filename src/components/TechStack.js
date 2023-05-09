@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 import {
     SiJavascript,
     SiHtml5,
@@ -28,6 +28,7 @@ const TechStack = () => {
             <div>
                 <p>As an enthusiastic learner, I am always opening to new technologies.</p>
                 <p>Tech stacks that I have been familiar with are listed here. Those techniques are learnt from coursework, previous work experiences, self-driven project, etc.</p>
+                <p>Most of these tech stacks have been applied in my projects. See <b>Projects</b> section for more detail.</p>
             </div>
             <h2>Programming Language</h2>
             <Row>
