@@ -6,6 +6,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <p>Personal webpage powered by React <img src={react_logo} style={{ width: 30, height: 30 }} alt={""}></img></p>
+            <p>Icons: <a href="https://devicon.dev/">Devicon</a></p>
         </footer>
     );
 };

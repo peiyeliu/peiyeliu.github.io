@@ -29,7 +29,7 @@ const ProjectDetails = () => {
             <h3>Features</h3>
             <Row>
                 {project.features.map((feature, index) => (
-                    <Col key={index} xs={12} md={4} className="mb-4">
+                    <Col key={index} xs={12} md={3} className="mb-4">
                         <Card className="h-100">
                             <Card.Img variant="top" src={feature.image} />
                             <Card.Body>

@@ -4,17 +4,20 @@ import reactPersonalpageImg from './components/img/react_logo.svg'
 import springOnlineShopptingImg from './components/img/spring.jpeg'
 import flaskStockInfoImg from './components/img/stock-flask.png'
 import iosMoviedbImg from './components/img/ios-moviedb.png'
+import tinyOjImg from './components/img/tinyoj.png'
+import tinyOjDesignImg from './components/img/tinyOJdesign.png'
 
 import angularMoviedbGif1 from './components/gif/angular-moviedb/moviedb-angular-1.gif'
 import angularMoviedbGif2 from './components/gif/angular-moviedb/moviedb-angular-2.gif'
 import angularMoviedbGif3 from './components/gif/angular-moviedb/moviedb-angular-3.gif'
 
-import iosMoviedbpic1 from './components/gif/ios-moviedb/moviedbios-1.png'
-import iosMoviedbpic2 from './components/gif/ios-moviedb/moviedbios-2.png'
-import iosMoviedbpic3 from './components/gif/ios-moviedb/moviedbios-3.png'
-import iosMoviedbpic4 from './components/gif/ios-moviedb/moviedbios-4.png'
-import iosMoviedbpic5 from './components/gif/ios-moviedb/moviedbios-5.png'
-import iosMoviedbpic6 from './components/gif/ios-moviedb/moviedbios-6.png'
+import iosMoviedbpic1 from './components/gif/ios-moviedb/moviedbios-1.gif'
+import iosMoviedbpic2 from './components/gif/ios-moviedb/moviedbios-2.gif'
+import iosMoviedbpic3 from './components/gif/ios-moviedb/moviedbios-3.gif'
+import iosMoviedbpic4 from './components/gif/ios-moviedb/moviedbios-4.gif'
+
+
+
 
 
 
@@ -25,8 +28,6 @@ const projectData = {
         projectImg: angularMoviedbImg,
         projectDescription: 'This project used Angular as the front-end framework to display responsive web pages. Backend part was built using Node.js, Express, and Axios.',
         detailPage: true,
-        // systemDesignImage: angularMoviedbImg,
-        // systemDesignDescription: 'Description of the overall system design.',
         features: [
             {
                 image: angularMoviedbGif1,
@@ -48,8 +49,6 @@ const projectData = {
         projectImg: flaskMoviedbImg,
         projectDescription: 'A web technology project using Python Flask as the backend framework. User interface display and request handling were achieved in plain HTML, CSS, and JavaScript.',
         detailPage: false,
-        // systemDesignImage: flaskMoviedbImg,
-        // systemDesignDescription: 'Description of the overall system design.',
     },
     'react-personalpage': {
         projectName: 'react-personalpage',
@@ -57,8 +56,6 @@ const projectData = {
         projectImg: reactPersonalpageImg,
         projectDescription: 'Personal web page powered by React and BootStrap',
         detailPage: false,
-        // systemDesignImage: reactPersonalpageImg,
-        // systemDesignDescription: 'Description of the overall system design.'
     },
     'spring-online-shopping': {
         projectName: 'spring-online-shopping',
@@ -75,8 +72,6 @@ const projectData = {
         projectImg: flaskStockInfoImg,
         projectDescription: 'a web project that deliver stock info',
         detailPage: false,
-        // systemDesignImage: flaskStockInfoImg,
-        // systemDesignDescription: 'Description of the overall system design.'
     },
     'ios-moviedb': {
         projectName: 'ios-moviedb',
@@ -91,26 +86,43 @@ const projectData = {
             },
             {
                 image: iosMoviedbpic2,
-                description: 'movie/tv detail view, with youtube video component',
+                description: 'search functionality',
             },
             {
                 image: iosMoviedbpic3,
-                description: 'Casts, reviews with scroll bar layout',
+                description: 'Movie/TV details, casts, reviews with scroll bar layout',
             },
             {
                 image: iosMoviedbpic4,
-                description: 'Recommended movies',
-            },
-            {
-                image: iosMoviedbpic5,
-                description: 'Search bar',
-            },
-            {
-                image: iosMoviedbpic6,
-                description: 'Watchlist',
+                description: 'Add or delete item in watchlist',
             },
         ]
-    }
+    },
+    'tinyOJ': {
+        projectName: 'tinyOJ',
+        projectLink: 'https://github.com/peiyeliu/tinyOJ',
+        projectImg: tinyOjImg,
+        projectDescription: 'This project used Angular as the front-end framework to display responsive web pages. Backend part was built using Node.js, Express, and Axios.',
+        detailPage: true,
+        systemDesignImage: tinyOjDesignImg,
+        systemDesignDescription: 'The main business logic was implemented in python Django. Problem, User, Submission, Discussion data are stored in SQl databases.\n' +
+            'The remote judge was implemented as a separate microservice in python Flask. Remote judge uses docker to create an isolated environment to test submissions. '
+            + 'Files, such as input/outputs, can be stored with the remote judge or in cloud services like Amazon S3.',
+        features: [
+            {
+                image: tinyOjImg,
+                description: 'Display all problems, search problems using keyword, problem ID and tags',
+            },
+            {
+                image: tinyOjImg,
+                description: 'Submit problems and get immediate judge results',
+            },
+            {
+                image: tinyOjImg,
+                description: 'Editorials and discussions included. Admin pages implemented to edit problems/editorials',
+            },
+        ]
+    },
 };
 
 export default projectData;

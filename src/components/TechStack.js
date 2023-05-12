@@ -1,26 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
-import {
-    SiJavascript,
-    SiHtml5,
-    SiCss3,
-    SiReact,
-    SiPython,
-    SiCplusplus,
-    SiTypescript,
-    SiMicrosoftazure,
-    SiGooglecloud,
-    SiAmazonaws,
-    SiRedis,
-    SiMongodb,
-    SiMysql,
-    SiAngular,
-    SiDocker,
-    SiKubernetes,
-    SiJenkins, SiAnsible, SiTerraform
-} from 'react-icons/si';
 import './css/TechStack.css';
-import {FaJava} from "react-icons/fa";
 
 const TechStack = () => {
     return (
@@ -33,19 +13,20 @@ const TechStack = () => {
             <h2>Programming Language</h2>
             <Row>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <FaJava size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                     <p>Java</p>
                 </Col>
+
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiPython size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                     <p>Python</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiCplusplus size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                     <p>C++</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiTypescript size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                     <p>Typescript</p>
                 </Col>
             </Row>
@@ -53,15 +34,15 @@ const TechStack = () => {
             <h2>Databases</h2>
             <Row>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiMysql size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
                     <p>MySQL</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiRedis size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" />
                     <p>Redis</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiMongodb size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
                     <p>Mongodb</p>
                 </Col>
             </Row>
@@ -69,15 +50,15 @@ const TechStack = () => {
             <h2>Cloud Services</h2>
             <Row>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiAmazonaws size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" />
                     <p>Amazon AWS</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiGooglecloud size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
                     <p>Google Cloud</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiMicrosoftazure size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" />
                     <p>Azure</p>
                 </Col>
             </Row>
@@ -85,48 +66,64 @@ const TechStack = () => {
             <h2>DevOps & CI/CD</h2>
             <Row>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiDocker size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
                     <p>Docker</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiKubernetes size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" />
                     <p>Kubernetes</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiJenkins size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" />
                     <p>Jenkins</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiAnsible size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" />
                     <p>Ansible</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiTerraform size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" />
                     <p>Terraform</p>
                 </Col>
             </Row>
 
+            <h2>Framework</h2>
+
+            <Row>
+                <Col xs={12} sm={6} md={4} lg={2}>
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+                    <p>Django</p>
+                </Col>
+                <Col xs={12} sm={6} md={4} lg={2}>
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+                    <p>Spring</p>
+                </Col>
+                <Col xs={12} sm={6} md={4} lg={2}>
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" />
+                    <p>Flask</p>
+                </Col>
+            </Row>
 
             <h2>Front End</h2>
             <Row>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiJavascript size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                     <p>JavaScript</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiHtml5 size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
                     <p>HTML5</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiCss3 size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
                     <p>CSS3</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiReact size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                     <p>React</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
-                    <SiAngular size={48} />
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
                     <p>Angular</p>
                 </Col>
             </Row>
