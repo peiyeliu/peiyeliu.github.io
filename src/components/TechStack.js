@@ -63,8 +63,13 @@ const TechStack = () => {
                 </Col>
             </Row>
 
-            <h2>DevOps & CI/CD</h2>
+            <h2>DevOps & CI/CD Tools</h2>
             <Row>
+                <Col xs={12} sm={6} md={4} lg={2}>
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                    <p>Git</p>
+                </Col>
+
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
                     <p>Docker</p>
@@ -119,12 +124,20 @@ const TechStack = () => {
                     <p>CSS3</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" />
+                    <p>Bootstrap</p>
+                </Col>
+                <Col xs={12} sm={6} md={4} lg={2}>
                     <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                     <p>React</p>
                 </Col>
                 <Col xs={12} sm={6} md={4} lg={2}>
                     <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
                     <p>Angular</p>
+                </Col>
+                <Col xs={12} sm={6} md={4} lg={2}>
+                    <img alt="" className={'logo'} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+                    <p>nodejs</p>
                 </Col>
             </Row>
         </Container>

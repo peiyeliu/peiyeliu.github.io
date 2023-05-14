@@ -16,7 +16,9 @@ import iosMoviedbpic2 from './components/gif/ios-moviedb/moviedbios-2.gif'
 import iosMoviedbpic3 from './components/gif/ios-moviedb/moviedbios-3.gif'
 import iosMoviedbpic4 from './components/gif/ios-moviedb/moviedbios-4.gif'
 
-
+import tinyoj1 from './components/gif/tinyoj/tinyoj1.gif'
+import tinyoj2 from './components/gif/tinyoj/tinyoj2.gif'
+import tinyoj3 from './components/gif/tinyoj/tinyoj3.gif'
 
 
 
@@ -102,7 +104,7 @@ const projectData = {
         projectName: 'tinyOJ',
         projectLink: 'https://github.com/peiyeliu/tinyOJ',
         projectImg: tinyOjImg,
-        projectDescription: 'This project used Angular as the front-end framework to display responsive web pages. Backend part was built using Node.js, Express, and Axios.',
+        projectDescription: 'This is a tiny online judge system built in Python and Django framework. Relational database(PostgreSQL, sqlite), docker technique were applied.',
         detailPage: true,
         systemDesignImage: tinyOjDesignImg,
         systemDesignDescription: 'The main business logic was implemented in python Django. Problem, User, Submission, Discussion data are stored in SQl databases.\n' +
@@ -110,17 +112,17 @@ const projectData = {
             + 'Files, such as input/outputs, can be stored with the remote judge or in cloud services like Amazon S3.',
         features: [
             {
-                image: tinyOjImg,
-                description: 'Display all problems, search problems using keyword, problem ID and tags',
-            },
-            {
-                image: tinyOjImg,
+                image: tinyoj1,
                 description: 'Submit problems and get immediate judge results',
             },
             {
-                image: tinyOjImg,
+                image: tinyoj2,
                 description: 'Editorials and discussions included. Admin pages implemented to edit problems/editorials',
             },
+            {
+                image: tinyoj3,
+                description: 'Check out historical submissions',
+            }
         ]
     },
 };
