@@ -1,7 +1,8 @@
 import angularMoviedbImg from './components/img/moviedb-angular.png'
 import flaskMoviedbImg from './components/img/moviedb-flask.png'
 import reactPersonalpageImg from './components/img/react_logo.svg'
-import springOnlineShopptingImg from './components/img/spring.jpeg'
+import springOnlineShoppingImg from './components/img/spring.jpeg'
+import springOnlineShoppingDesignImg from './components/img/spring-online-shopping.png'
 import flaskStockInfoImg from './components/img/stock-flask.png'
 import iosMoviedbImg from './components/img/ios-moviedb.png'
 import tinyOjImg from './components/img/tinyoj.png'
@@ -61,12 +62,18 @@ const projectData = {
     },
     'spring-online-shopping': {
         projectName: 'spring-online-shopping',
-        projectLink: 'https://github.com/peiyeliu/e-commerce-spike-springboot',
-        projectImg: springOnlineShopptingImg,
+        projectImg: springOnlineShoppingImg,
         projectDescription: 'online shopping web services develop under Java and Spring framework',
-        detailPage: false,
-        // systemDesignImage: springOnlineShopptingImg,
-        // systemDesignDescription: 'Description of the overall system design.',
+        detailPage: true,
+        systemDesignImage: springOnlineShoppingDesignImg,
+        systemDesignDescription: {
+            description: "This is a full stack online shopping project developed in Java SpringBoot.",
+            bulletpoints: [
+                'MySQL was selected as the relational database to store user, item, order information.',
+                'To enhance the availability of the system under high HTTP throughput. Multiple techniques have been applied: the first is the Sentinel middle that serves as the rate limiting tool',
+                "Redis was applied as the cache to shorten the query response time. Message Queue was equipped to ensure that shop items will not be overbooked."
+            ]
+        },
     },
     'flask-stock-info': {
         projectName: 'flask-stock-info',
@@ -107,9 +114,14 @@ const projectData = {
         projectDescription: 'This is a tiny online judge system built in Python and Django framework. Relational database(PostgreSQL, sqlite), docker technique were applied.',
         detailPage: true,
         systemDesignImage: tinyOjDesignImg,
-        systemDesignDescription: 'The main business logic was implemented in python Django. Problem, User, Submission, Discussion data are stored in SQl databases.\n' +
-            'The remote judge was implemented as a separate microservice in python Flask. Remote judge uses docker to create an isolated environment to test submissions. '
-            + 'Files, such as input/outputs, can be stored with the remote judge or in cloud services like Amazon S3.',
+        systemDesignDescription: {
+            description: "This is a full-stack Python Django project that delivers an online coding judge system.",
+            bulletpoints: [
+                'The main business logic was implemented in python Django. Problem, User, Submission, Discussion data are stored in SQl databases.',
+                'The remote judge was implemented as a separate microservice in python Flask. Remote judge uses docker to create an isolated environment to test submissions.',
+                'Files, such as input/outputs, can be stored with the remote judge or in cloud services like Amazon S3.'
+            ]
+        },
         features: [
             {
                 image: tinyoj1,
