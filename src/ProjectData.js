@@ -46,42 +46,6 @@ const projectData = {
             },
         ]
     },
-    'flask-moviedb': {
-        projectName: 'flask-moviedb',
-        projectLink: 'https://github.com/peiyeliu/moviedb-python-flask',
-        projectImg: flaskMoviedbImg,
-        projectDescription: 'A web technology project using Python Flask as the backend framework. User interface display and request handling were achieved in plain HTML, CSS, and JavaScript.',
-        detailPage: false,
-    },
-    'react-personalpage': {
-        projectName: 'react-personalpage',
-        projectLink: 'https://github.com/peiyeliu/peiyeliu.github.io',
-        projectImg: reactPersonalpageImg,
-        projectDescription: 'Personal web page powered by React and BootStrap',
-        detailPage: false,
-    },
-    'spring-online-shopping': {
-        projectName: 'spring-online-shopping',
-        projectImg: springOnlineShoppingImg,
-        projectDescription: 'online shopping web services develop under Java and Spring framework',
-        detailPage: true,
-        systemDesignImage: springOnlineShoppingDesignImg,
-        systemDesignDescription: {
-            description: "This is a full stack online shopping project developed in Java SpringBoot.",
-            bulletpoints: [
-                'MySQL was selected as the relational database to store user, item, order information.',
-                'To enhance the availability of the system under high HTTP throughput. Multiple techniques have been applied: the first is the Sentinel middle that serves as the rate limiting tool',
-                "Redis was applied as the cache to shorten the query response time. Message Queue was equipped to ensure that shop items will not be overbooked."
-            ]
-        },
-    },
-    'flask-stock-info': {
-        projectName: 'flask-stock-info',
-        projectLink: 'https://github.com/peiyeliu/stock-web-page-flask',
-        projectImg: flaskStockInfoImg,
-        projectDescription: 'a web project that deliver stock info',
-        detailPage: false,
-    },
     'ios-moviedb': {
         projectName: 'ios-moviedb',
         projectLink: 'https://github.com/peiyeliu/moviedbappIOS',
@@ -136,6 +100,42 @@ const projectData = {
                 description: 'Check out historical submissions',
             }
         ]
+    },
+    'spring-online-shopping': {
+        projectName: 'spring-online-shopping',
+        projectImg: springOnlineShoppingImg,
+        projectDescription: 'online shopping web services develop under Java and Spring framework',
+        detailPage: true,
+        systemDesignImage: springOnlineShoppingDesignImg,
+        systemDesignDescription: {
+            description: "This is a full stack online shopping project developed in Java SpringBoot.",
+            bulletpoints: [
+                'MySQL was selected as the relational database to store user, item, order information.',
+                'To enhance the availability of the system under high HTTP throughput. Multiple techniques have been applied: the first is the Sentinel middle that serves as the rate limiting tool',
+                "Redis was applied as the cache to shorten the query response time. Message Queue was equipped to ensure that shop items will not be overbooked."
+            ]
+        },
+    },
+    'react-personalpage': {
+        projectName: 'react-personalpage',
+        projectLink: 'https://github.com/peiyeliu/peiyeliu.github.io',
+        projectImg: reactPersonalpageImg,
+        projectDescription: 'Personal web page powered by React and BootStrap. Click this card to see how I built this personal page',
+        detailPage: false,
+    },
+    'flask-stock-info': {
+        projectName: 'flask-stock-info',
+        projectLink: 'https://github.com/peiyeliu/stock-web-page-flask',
+        projectImg: flaskStockInfoImg,
+        projectDescription: 'A simple web service delivers stock info. Developed in Python Flask with simple HTML, CSS, and Javascript codes.',
+        detailPage: false,
+    },
+    'flask-moviedb': {
+        projectName: 'flask-moviedb',
+        projectLink: 'https://github.com/peiyeliu/moviedb-python-flask',
+        projectImg: flaskMoviedbImg,
+        projectDescription: 'A web service with Python Flask as the backend framework. User interface display and request handling were achieved in plain HTML, CSS, and JavaScript.',
+        detailPage: false,
     },
 };
 
