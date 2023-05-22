@@ -26,10 +26,12 @@ import tinyoj3 from './components/gif/tinyoj/tinyoj3.gif'
 
 const projectData = {
     'angular-moviedb': {
-        projectName: 'angular-moviedb',
+        projectName: 'AngularFlix',
         projectLink: 'https://github.com/peiyeliu/moviedb-angular',
+        projectDeployLink: 'https://moviedb-angular.herokuapp.com/',
         projectImg: angularMoviedbImg,
-        projectDescription: 'This project used Angular as the front-end framework to display responsive web pages. Backend part was built using Node.js, Express, and Axios.',
+        projectDescription: 'AngularFlix is a web application designed using the Angular framework to provide comprehensive movie information.',
+        techStack: 'Angular, Node.js, Express, Axios, HTML, CSS, JavaScript, BootStrap',
         detailPage: true,
         features: [
             {
@@ -51,6 +53,7 @@ const projectData = {
         projectLink: 'https://github.com/peiyeliu/moviedbappIOS',
         projectImg: iosMoviedbImg,
         projectDescription: 'This is an IOS app that displays movie and TV programs ratings, description, casts, and reviews data. Searching and watchlist feature supported.',
+        techStack: 'Swift, Xcode, Node.js, Express, Axios',
         detailPage: true,
         features: [
             {
@@ -77,6 +80,7 @@ const projectData = {
         projectImg: tinyOjImg,
         projectDescription: 'This is a tiny online judge system built in Python and Django framework. Relational database(PostgreSQL, sqlite), docker technique were applied.',
         detailPage: true,
+        techStack: 'Python, Django, Flask, Docker, PostgreSQL',
         systemDesignImage: tinyOjDesignImg,
         systemDesignDescription: {
             description: "This is a full-stack Python Django project that delivers an online coding judge system.",
@@ -105,6 +109,7 @@ const projectData = {
         projectName: 'spring-online-shopping',
         projectImg: springOnlineShoppingImg,
         projectDescription: 'online shopping web services develop under Java and Spring framework',
+        techStack: 'Java, SpringMVC, SpringBoot, Redis, MySQL, JMeter, RocketMQ, Sentinel',
         detailPage: true,
         systemDesignImage: springOnlineShoppingDesignImg,
         systemDesignDescription: {
@@ -120,7 +125,7 @@ const projectData = {
         projectName: 'react-personalpage',
         projectLink: 'https://github.com/peiyeliu/peiyeliu.github.io',
         projectImg: reactPersonalpageImg,
-        projectDescription: 'Personal web page powered by React and BootStrap. Click this card to see how I built this personal page',
+        projectDescription: 'Personal web page powered by React and BootStrap. Click this card to see the source code of my personal page',
         detailPage: false,
     },
     'flask-stock-info': {

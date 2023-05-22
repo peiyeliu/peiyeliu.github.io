@@ -12,15 +12,44 @@ const ProjectDetails = () => {
     }
     return (
         <Container className="project-details">
+            <h2>{project.projectName}</h2>
+
             {project.projectLink ?
-                <h2 href={project.projectLink}><a href={project.projectLink} target="_blank"
-                                                  rel="noopener noreferrer">{project.projectName}</a></h2>
-                : <h2>{project.projectName}</h2>
+                <div>
+                    <h4>Source Code</h4>
+                    <p><a href={project.projectLink} target="_blank" rel="noopener noreferrer">Source code Github Link</a></p>
+                </div>
+                : null
             }
 
-            {project.projectDescription?
-                <p>{project.projectDescription}</p> : null
+
+            {project.projectDeployLink?
+                <div>
+                    <h4>Demo</h4>
+                    <p>This project has been deployed on cloud, check the deployed link below:</p>
+                    <p><a href={project.projectDeployLink} target="_blank" rel="noopener noreferrer">{project.projectName}</a></p>
+                </div>
+                 : null
             }
+
+
+            {project.projectDescription?
+                <div>
+                    <h3>Description</h3>
+                    <p>{project.projectDescription}</p>
+                </div>
+                 : null
+            }
+
+            {project.techStack?
+                <div>
+                    <h3>Tech Stack Used</h3>
+                    <p>{project.techStack}</p>
+                </div>
+                : null
+            }
+
+
 
             {project.systemDesignImage ?
                 <div>
@@ -33,7 +62,6 @@ const ProjectDetails = () => {
                     {project.systemDesignDescription.bulletpoints.map((bulletpoint) => (
                         <li>{bulletpoint}</li>
                     ))}
-
                 </div>
                 : null
             }
