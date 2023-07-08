@@ -28,8 +28,8 @@ const projectData = {
     'angular-moviedb': {
         projectName: 'AngularFlix',
         projectLink: 'https://github.com/peiyeliu/moviedb-angular',
-        projectDeployLink: 'https://moviedb-angular.herokuapp.com/',
         projectImg: angularMoviedbImg,
+        projectYoutubeId: 'QGihSr4747o',
         projectDescription: 'AngularFlix is a web application designed using the Angular framework to provide comprehensive movie information.',
         techStack: 'Angular, Node.js, Express, Axios, HTML, CSS, JavaScript, BootStrap',
         detailPage: true,
@@ -52,6 +52,7 @@ const projectData = {
         projectName: 'ios-moviedb',
         projectLink: 'https://github.com/peiyeliu/moviedbappIOS',
         projectImg: iosMoviedbImg,
+        projectYoutubeId: '5-RLntHSd4E',
         projectDescription: 'This is an IOS app that displays movie and TV programs ratings, description, casts, and reviews data. Searching and watchlist feature supported.',
         techStack: 'Swift, Xcode, Node.js, Express, Axios',
         detailPage: true,

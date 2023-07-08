@@ -1,4 +1,5 @@
 import React from 'react';
+import YouTube from 'react-youtube';
 import {Card, Col, Container, Row} from 'react-bootstrap';
 import projectData from "../ProjectData";
 import {useParams} from "react-router-dom";
@@ -6,6 +7,7 @@ import {useParams} from "react-router-dom";
 const ProjectDetails = () => {
     const {projectId} = useParams();
     const project = projectData[projectId];
+
 
     if (!project) {
         return <div>Project not found.</div>;
@@ -50,7 +52,6 @@ const ProjectDetails = () => {
             }
 
 
-
             {project.systemDesignImage ?
                 <div>
                     <h3>System Design</h3>
@@ -62,6 +63,16 @@ const ProjectDetails = () => {
                     {project.systemDesignDescription.bulletpoints.map((bulletpoint) => (
                         <li>{bulletpoint}</li>
                     ))}
+                </div>
+                : null
+            }
+
+            <p></p>
+
+            {project.projectYoutubeId ?
+                <div>
+                    <h3>Demo video</h3>
+                    <YouTube videoId={project.projectYoutubeId} />
                 </div>
                 : null
             }
